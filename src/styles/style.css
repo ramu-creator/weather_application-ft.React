@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ 
+/* Container for the entire weather component */
+#weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    background-image: url('https://files.oaiusercontent.com/file-5FjyO2d68qcTPcenLRRZkF1Z?se=2024-10-04T18%3A10%3A29Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Db7bd3d14-c562-416f-a728-b377b448af6c.webp&sig=8wXhQhNWcOEYi0dEM50hdzXSxomGW5/KTEeTDxYdxA4%3D');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+
+  }
+  
+  /* Search container for the input and button */
+  #search-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #city-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 250px;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #46818d;
+    color:#fefbd8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  #search-button:hover {
+    background-color: #8ec0b6;
+  }
+  
+  /* Loading and error messages */
+  #loading {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  #error {
+    font-size: 18px;
+    color: red;
+  }
+  
+  /* Weather details display */
+  #weather-details {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 385px;
+    background-color: #46818d;
+    color: #fefbd8;
+  }
+  
+  #city-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #temperature {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  #weather {
+    font-size: 18px;
+  }
+  
